@@ -1,0 +1,30 @@
+{
+  "name": "@several/stylelint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/severalapp/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "config"
+  ],
+  "author": "Andy Tran <andy@several.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/severalapp/stylelint-config/issues"
+  },
+  "peerDependencies": {
+    "stylelint": ">=10.0.0",
+    "stylelint-config-styled-components": ">=0.1.0",
+    "stylelint-high-performance-animation": ">=1.2.0",
+    "stylelint-order": ">=3.0.0",
+    "stylelint-processor-styled-components": ">=1.8.0"
+  },
+  "homepage": "https://github.com/severalapp/stylelint-config#readme"
+}
