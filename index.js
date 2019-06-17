@@ -1,24 +1,9 @@
 'use strict';
 
 module.exports = {
-  "extends": [
-    "stylelint-config-styled-components",
-  ],
   'plugins': [
     'stylelint-high-performance-animation',
     'stylelint-order',
-  ],
-  'processors': [
-    [
-      'stylelint-processor-styled-components',
-      {
-        'parserPlugins': [
-          'jsx',
-          'classProperties',
-          'exportDefaultFrom',
-        ],
-      },
-    ],
   ],
   'rules': {
     'plugin/no-low-performance-animation-properties': true,
