@@ -122,16 +122,7 @@ module.exports = {
 
     'unit-case': 'lower',
 
-    'value-keyword-case': ['lower', {
-      ignoreKeywords: [
-        '/^(a|A)rial$/',
-        '/^(h|H)elvetica$/',
-      ],
-      ignoreProperties: [
-        'font',
-        'font-family',
-      ],
-    }],
+    'value-keyword-case': null,
 
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-space-after': 'always-single-line',
@@ -144,7 +135,7 @@ module.exports = {
     'declaration-colon-newline-after': 'always-multi-line',
     'declaration-colon-space-after': 'always-single-line',
     'declaration-colon-space-before': 'never',
-    'declaration-empty-line-before': 'never',
+    'declaration-empty-line-before': null,
 
     'declaration-block-semicolon-newline-after': 'always',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
